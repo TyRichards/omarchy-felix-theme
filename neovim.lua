@@ -1,8 +1,10 @@
 return {
+	{ "fxn/vim-monochrome" },
+
 	{
 		"LazyVim/LazyVim",
 		opts = {
-			colorscheme = "quiet",
+			colorscheme = "monochrome",
 		},
 	},
 }
