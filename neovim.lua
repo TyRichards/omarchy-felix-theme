@@ -1,9 +1,10 @@
 return {
-	{ "tahayvr/matteblack.nvim", lazy = false, priority = 1000 },
+	{ "neanias/everforest-nvim" },
 	{
 		"LazyVim/LazyVim",
 		opts = {
-			colorscheme = "matteblack",
+			colorscheme = "everforest",
+			background = "soft",
 		},
 	},
 }

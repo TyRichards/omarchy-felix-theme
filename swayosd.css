@@ -1,6 +1,16 @@
 @define-color background-color #000000;
-@define-color border-color #2E3134;
+@define-color border-color #e7e9ea;
 @define-color label #e7e9ea;
 @define-color image #e7e9ea;
 @define-color progress #e7e9ea;
 
+/* Main OSD container - rounds the entire popup */
+window.background,
+#osd,
+.osd,
+swayosd-window {
+    border-width: 1px;
+    border-radius: 8px;          /* Adjust this value: 12px–24px is nice and modern */
+    /* Optional: softer/more pill-like */
+    /* border-radius: 999px; */   /* Fully pill-shaped if width/height allows */
+}
