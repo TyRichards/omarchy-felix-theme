@@ -5,9 +5,9 @@ background = "#000000" # "#2d353b"
 selection_foreground = "#2d353b"
 selection_background = "#d3c6aa"
 
-color0 = "#475258"
+color0 = "#ffffff"
 color1 = "#bbbbbb"
-color2 = "#a7c080"
+color2 = "#e7e9ea" # Omarchy Logo, pdf
 color3 = "#dbbc7f"
 color4 = "#e7e9ea"
 color5 = "#d699b6"
