@@ -6,7 +6,7 @@
   color: @foreground;
   font-family: JetBrainsMono Nerd Font Propo;
   font-size: 12px;
-  font-weight: normal;
+  font-weight: bold;
 }
 
 #workspaces button.active {
