@@ -1,6 +1,6 @@
 @define-color foreground #e7e9ea;
 @define-color background #000000;
-/* @define-color background rgba(0,0,0,0.0) */
+/* @define-color background rgba(0,0,0,0.0); */
 * {
   background-color: @background;
   color: @foreground;
