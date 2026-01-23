@@ -8,4 +8,4 @@ A dead simple theme for the digital minimalist. Black & white with space to brea
 
 Einstein & Jobs wore the same thing every day. Now you can too.
 
-![Felix Omarchy Theme Screenshot](./.github/assets/preview.png)
+![Felix Omarchy Theme Screenshot](preview.png)
