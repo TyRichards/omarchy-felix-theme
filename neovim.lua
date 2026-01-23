@@ -1,10 +1,12 @@
 return {
-	{ "fxn/vim-monochrome" },
-
+	{
+		"bjarneo/ash.nvim",
+		name = "ash",
+	},
 	{
 		"LazyVim/LazyVim",
 		opts = {
-			colorscheme = "monochrome",
+			colorscheme = "ash",
 		},
 	},
 }

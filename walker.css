@@ -9,10 +9,34 @@
   border-radius: 6px;
   /* border: 1px solid lighter(@border); */ 
   border-width: 1px;
+  overflow: hidden;
 }
 
 #search {
   border-radius: 6px;
   /* background: transparent(@background); */
   border-width: 1px;
+}
+
+/* Sometimes needed for the outer wrapper or list */
+.box-wrapper {
+    border-radius: 6px;
+    border-width: 1px;
+}
+
+#search {
+  border-radius: 6px;
+  /* background: transparent(@background); */
+  border-width: 1px;
+}
+
+/* If the above don't catch it, target more specifically */
+window {
+    border-radius: 6px;
+    border-width: 1px;
+}
+
+#outer-box {
+    border-radius: 6px;
+    border-width: 1px;
 }
