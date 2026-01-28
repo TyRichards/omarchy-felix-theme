@@ -1,23 +1,29 @@
-accent = "#ff8852" # "#637867" 
-cursor = "#e7e9ea"
-foreground = "#e7e9ea"
-background = "#000000" # "#2d353b"
-selection_foreground = "#000000"
-selection_background = "#e7e9ea"
+accent = "#ff8852"          # Omarchy UI accent: links, focused controls, active states // obsidian checkbox /  btop bottom left border & shortcuts
+cursor = "#e7e9ea"          # Cursor color in terminal templates
+foreground = "#e7e9ea"      # Primary text color used across Omarchy templates 
+background = "#000000"      # Default background for terminals and themed UI surfaces
 
-color0 = "#121212"
-color1 = "#8a8a8a"
-color2 = "#e7e9ea" # Omarchy Logo, pdf
-color3 = "#9e9e9e"
-color4 = "#626262"
-color5 = "#8a8a8a"
-color6 = "#767676"
-color7 = "#e0e0e0"
-color8 = "#8a8a8a"
-color9 = "#9e9e9e"
-color10 = "#767676"
-color11 = "#b2b2b2"
-color12 = "#626262"
-color13 = "#8a8a8a"
-color14 = "#9e9e9e"
-color15 = "#e7e9ea"
+selection_foreground = "#000000"    # Text color for selections (terminal + UI selection states)
+selection_background = "#e7e9ea"    # Selection background used in terminal templates
+
+# Base16-aligned 16-color palette.
+# Omarchy templates map these to terminal color0-15 and Base16 base00-base0F.
+# Keep the semantic roles in mind when swapping colors.
+
+color0  = "#121212"  # base00 - Deep background; primary canvas for terminals
+color1  = "#8a8a8a"  # base08 - Error/critical accents (alerts, destructive states) // Terminal writable / obsidian H1 / btop bottom left border / compressed files
+color2  = "#e7e9ea"  # base0B - Success/positive accents (ok, added, confirm) // Terminal executible, size & pdf files / obsidian H2 / Fastfetch logo & hardware icons / btop middle border
+color3  = "#9e9e9e"  # base0A - Warning/attention accents // Terminal readable & username / obsidian H3 / download monitor
+color4  = "#626262"  # base0D - Primary accent (links, active, emphasis) // Terminal directory, folder name, date modified / fastfetch software icons / btop cpu monitor
+color5  = "#8a8a8a"  # base0E - Secondary accent (special highlights) // Terminal image files / btop top border / fastfetch bottom icons
+color6  = "#767676"  # base0C - Informational accents (hints, secondary highlights) // Terminal prompt / audio files / btop cpu monitor, percent, program/memory top gradient, used/cache memory, download bottom monitor
+color7  = "#e0e0e0"  # base05 - Default foreground for terminal text
+
+color8  = "#626262"  # base03 - Dim text, inactive UI, subtle borders // Obsidian icons, titles & interior borders / terminal dashes / fastfetch 3x box borders / btop cpu meter, top right border, left interior borders, processes bottom gradient, download border
+color9  = "#9e9e9e"  # base08 - Bright/error variant (often same as color1)
+color10 = "#767676"  # base0B - Bright/success variant (often same as color2)
+color11 = "#b2b2b2"  # base0A - Bright/warning variant
+color12 = "#626262"  # base0D - Bright primary accent variant
+color13 = "#8a8a8a"  # base0E - Bright secondary accent variant
+color14 = "#9e9e9e"  # base0C - Bright informational accent variant
+color15 = "#e7e9ea"  # base07 - Highest-contrast text for headers and strong emphasis

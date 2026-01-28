@@ -4,8 +4,21 @@
 * {
   background-color: @background;
   color: @foreground;
+  font-weight: bold;
 }
 
 #workspaces button.active {
-    border-bottom: 1px solid @foreground;
+    border-top: 1px solid @foreground;
+}
+
+.modules-left {
+  margin-left: 14px;
+}
+
+.modules-left {
+  margin-left: 16px;
+}
+
+.modules-right {
+  margin-right: 20px;
 }
