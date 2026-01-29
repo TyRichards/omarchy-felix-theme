@@ -5,14 +5,39 @@
 @define-color foreground #71767b;
 @define-color background #000000;
 
-#box {
-  border-radius: 12px;
-  /* border: 1px solid lighter(@border); */ 
-  border-width: 1px;
-  overflow: hidden;
+window * {
+    font-size: 20px;
 }
 
-#search, .box-wrapper, #search, window, #outer-box {
-  border-radius: 12px;
-  border-width: 1px;
+window .normal-icons,
+window .large-icons,
+window .item-image,
+window .symbols {
+    -gtk-icon-size: 30px;
+    min-width: 0;
+    min-height: 0;
+    padding: 0;
+    margin: 0;
+    display: none;
+}
+
+window .box-wrapper {
+    background: @background;
+    border: 1px solid @border;
+    border-radius: 12px;
+    padding: 40px 40px 60px 40px;
+}
+
+window .search-container {
+  background: #121212;
+  border-radius: 10px;
+  padding: 18px 20px;
+  margin-bottom: 20px;
+}
+
+window .search-container text { }
+
+window .input {
+  background: transparent;
+  color: @text;
 }
