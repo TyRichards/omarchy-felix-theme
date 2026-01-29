@@ -2,19 +2,20 @@
 @define-color background #000000;
 /* @define-color background rgba(0,0,0,0.0); */
 * {
-  background-color: @background;
   color: @foreground;
   font-weight: bold;
 }
 
+window#waybar > box {
+  background-color: @background;
+  /* margin-top: 20px; */
+  /* padding-top: 20px; */
+  /* border-radius: 8px; */
+  /* padding-bottom: 0; */
+  /* padding-top: 10px; */
+}
+
 #workspaces button.active {
     border-bottom: 1px solid @foreground;
-}
-
-.modules-left {
-  margin-left: 16px;
-}
-
-.modules-right {
-  margin-right: 20px;
+    padding-bottom: 1px;
 }

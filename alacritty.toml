@@ -1,6 +1,8 @@
 
 [window]
-opacity = 0.3
+opacity = 0.4
+padding.x = 50
+padding.y = 40
 
 [colors]
 transparent_background_colors = true
