@@ -15,3 +15,9 @@ swayosd-window {
     /* Optional: softer/more pill-like */
     /* border-radius: 999px; */   /* Fully pill-shaped if width/height allows */
 }
+
+progressbar,
+trough {
+    min-height: 8px;
+    background-color: #626262;
+}

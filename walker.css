@@ -5,6 +5,10 @@
 @define-color foreground #71767b;
 @define-color background #000000;
 
+window {
+    background: rgba(0, 0, 0, 0.8);
+}
+
 window * {
     font-size: 20px;
 }
