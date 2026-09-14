@@ -1,29 +1,36 @@
-accent = "#ff8852"          # Omarchy UI accent: links, focused controls, active states // obsidian checkbox /  btop bottom left border & shortcuts
-cursor = "#e7e9ea"          # Cursor color in terminal templates
-foreground = "#e7e9ea"      # Primary text color used across Omarchy templates 
-background = "#000000"      # Default background for terminals and themed UI surfaces
+mode = "dark"
 
-selection_foreground = "#000000"    # Text color for selections (terminal + UI selection states)
-selection_background = "#e7e9ea"    # Selection background used in terminal templates
+accent = "#ff8852"
+selection = "#e7e9ea"
+selection_foreground = "#000000"
+muted = "#626262"
 
-# Base16-aligned 16-color palette.
-# Omarchy templates map these to terminal color0-15 and Base16 base00-base0F.
-# Keep the semantic roles in mind when swapping colors.
+background = "#000000"
+dark_background = "#000000"
+darker_background = "#000000"
+lighter_background = "#121212"
 
-color0  = "#121212"  # base00 - Deep background; primary canvas for terminals
-color1  = "#8a8a8a"  # base08 - Error/critical accents (alerts, destructive states) // Terminal writable / obsidian H1 / btop bottom left border / compressed files
-color2  = "#e7e9ea"  # base0B - Success/positive accents (ok, added, confirm) // Terminal executible, size & pdf files / obsidian H2 / Fastfetch logo & hardware icons / btop middle border
-color3  = "#9e9e9e"  # base0A - Warning/attention accents // Terminal readable & username / obsidian H3 / download monitor
-color4  = "#626262"  # base0D - Primary accent (links, active, emphasis) // Terminal directory, folder name, date modified / fastfetch software icons / btop cpu monitor
-color5  = "#8a8a8a"  # base0E - Secondary accent (special highlights) // Terminal image files / btop top border / fastfetch bottom icons
-color6  = "#767676"  # base0C - Informational accents (hints, secondary highlights) // Terminal prompt / audio files / btop cpu monitor, percent, program/memory top gradient, used/cache memory, download bottom monitor
-color7  = "#e0e0e0"  # base05 - Default foreground for terminal text
+foreground = "#e7e9ea"
+dark_foreground = "#626262"
+light_foreground = "#e0e0e0"
+bright_foreground = "#e7e9ea"
 
-color8  = "#626262"  # base03 - Dim text, inactive UI, subtle borders // Obsidian icons, titles & interior borders / terminal dashes / fastfetch 3x box borders / btop cpu meter, top right border, left interior borders, processes bottom gradient, download border
-color9  = "#9e9e9e"  # base08 - Bright/error variant (often same as color1)
-color10 = "#767676"  # base0B - Bright/success variant (often same as color2)
-color11 = "#b2b2b2"  # base0A - Bright/warning variant
-color12 = "#626262"  # base0D - Bright primary accent variant
-color13 = "#8a8a8a"  # base0E - Bright secondary accent variant
-color14 = "#9e9e9e"  # base0C - Bright informational accent variant
-color15 = "#e7e9ea"  # base07 - Highest-contrast text for headers and strong emphasis
+red = "#8a8a8a"
+yellow = "#9e9e9e"
+orange = "#ff8852"
+green = "#e7e9ea"
+cyan = "#767676"
+blue = "#626262"
+magenta = "#8a8a8a"
+brown = "#767676"
+
+bright_red = "#9e9e9e"
+bright_yellow = "#b2b2b2"
+bright_green = "#767676"
+bright_cyan = "#9e9e9e"
+bright_blue = "#626262"
+bright_magenta = "#8a8a8a"
+
+# Keep Felix window chrome neutral even though the UI accent is orange.
+hyprland_active_border = "#878787"
+hyprland_inactive_border = "#262626"
